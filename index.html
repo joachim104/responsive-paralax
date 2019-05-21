@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="faviconCC.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="navbar.css">
+    <title>CleanCode</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <nav class="site-nav">
+            <h1 class="logo">CleanCode Solutions</h1>
+
+            <div class="menu-toggle">
+                <div class="hamburger"></div>
+            </div>
+
+            <ul class="open desktop">
+                <li><a class="cool-link" href="#!"><i class="fa fa-database site-nav--icon"></i>Home</a></li>
+                <li><a class="cool-link" href="#!"><i class="fa fa-info-circle site-nav--icon"></i>Latest News</a></li>
+                <li><a class="cool-link" href="#!"><i class="fa fa-paper-plane site-nav--icon"></i>About us</a></li>
+                <li><a class="cool-link" href="#!"><i class="fa fa-cloud-download site-nav--icon"></i>Download</a></li>
+                <li><a class="cool-link" href="#!"><i class="fa fa-envelope site-nav--icon"></i>Contact us</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="parallax">
+        <h1 id="header">A new experience with web design</h1>
+        <i class="material-icons icon-style2">grain</i>
+    </div>
+
+    <div class="parallax-content">
+        <i class="material-icons icon-style1">code</i>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+        </p>
+        <hr class="style7">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+        </p>
+    </div>
+
+    <div class="parallax"></div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+
+    <script>
+        $('.menu-toggle').click(function () {
+            $('ul').toggleClass('opening');
+            $(this).toggleClass('open');
+        })
+    </script>
+
+</body>
+
+</html>
