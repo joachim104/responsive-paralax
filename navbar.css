@@ -1,3 +1,16 @@
+/* SUBJECT STYLE */
+.subject-container {
+  border: 1px solid #ebebd3;
+  padding: 15px;
+  margin: 30px;
+}
+
+.subject-title {
+  margin: 0px;
+  letter-spacing: 3px;
+  font-size: 2vw;
+}
+
 /* COOL LINK */
 .cool-link {
   display: inline-block;
@@ -9,7 +22,7 @@
   display: block;
   width: 0;
   height: 2px;
-  background: black;
+  background: #ebebd3;
   transition: width 0.3s;
 }
 
@@ -20,13 +33,13 @@
 
 /* HR-STYLING */
 hr.style7 {
-  border-top: 1px solid yellow;
-  border-bottom: 1px solid yellow;
+  border-top: 1px solid #ebebd3;
+  border-bottom: 1px solid #ebebd3;
 }
 
 /* ICONS */
 .icon-style1 {
-  color: yellow;
+  color: #ebebd3;
   font-size: 50px !important;
 }
 
@@ -42,10 +55,10 @@ hr.style7 {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  font-weight: 600;
+  font-weight: 100;
   font-size: 3vw;
-  letter-spacing: 3px;
-  text-transform: capitalize;
+  letter-spacing: 4px;
+  text-transform: uppercase;
   /* font-family: "Titillium Web", sans-serif !important; */
 }
 
@@ -66,7 +79,7 @@ hr.style7 {
 
 .parallax-content {
   margin-top: 25px;
-  height: 350px;
+  height: 500px;
   color: white;
   text-align: center;
 }
@@ -95,7 +108,7 @@ body {
 }
 
 .logo {
-  color: #fff;
+  color: #ebebd3;
   font-size: 1rem;
   margin: 0;
   padding-top: 17px;
@@ -126,6 +139,7 @@ body {
   display: block;
   /* color of burger-bar */
   background: #ebebd3;
+  /* background: yellow; */
   height: 3px;
   width: 2em;
   border-radius: 3px;
@@ -193,7 +207,7 @@ nav a {
 
 nav a:hover,
 nav a:focus {
-  background: yellow;
+  background: white;
   color: black;
 }
 
@@ -202,10 +216,17 @@ nav a:focus {
   margin-right: 1em;
   width: 1.1em;
   text-align: right;
-  color: rgba(255, 255, 255, 0.4);
+  color: #ebebd3;
 }
 
 @media (min-width: 780px) {
+  .parallax-content {
+    margin-top: 30px;
+    height: 450px;
+    letter-spacing: 2px;
+    color: #ebebd3;
+    text-align: center;
+  }
   .menu-toggle {
     display: none;
   }
@@ -225,12 +246,12 @@ nav a:focus {
     margin: 0;
     border: none;
     background-color: black;
-    color: yellow;
+    color: #ebebd3;
   }
   nav a:hover,
   nav a:focus {
-    background-color: yellow;
-    color: black;
+    background-color: black;
+    color: #ebebd3;
   }
 
   .logo {
